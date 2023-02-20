@@ -1,0 +1,80 @@
+/* start variables */
+:root{
+    --blue-color:#17a2b8;
+    --white-color: rgba(255,255,255,.5);
+}
+/* end variables */
+/* start global rules */
+body{
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+/* end global rules */
+/* start login and registration page */
+.content{
+    box-shadow: 1px 2px 50px 1px rgb(0,0,0,.7);
+}
+h1{
+    color: var(--blue-color);
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+::placeholder{
+    color: rgba(255,255,255,.6) !important;
+}
+form button{
+    border: 1px solid var(--blue-color) !important;
+    transition: all .5s;
+    color: var(--blue-color) !important;
+}
+form button:hover{
+    background-color: var(--blue-color) !important;
+    color: white !important;
+}
+.form-control:focus{
+    background-color: transparent !important;
+}
+button.form-control:hover{
+    background-color: var(--blue-color) !important;
+}
+.text p,
+.text p a{
+    font-size: 17px;
+}
+.text p a:hover{
+    text-decoration: underline !important;
+}
+/* end login and registration page */
+
+/* start home page */
+/* start navbar */
+.navbar{
+    box-shadow: 1px 2px 50px 1px rgb(0,0,0,.7);
+}
+.navbar-toggler{
+    border-color: var(--white-color) !important;
+}
+.nav-link,
+.navbar-toggler{
+    color: var(--white-color);
+    transition: color .5s;
+}
+.nav-link:hover{
+    color: #fff;
+}
+/* end navbar */
+/* start header */
+header{
+    height: calc(100vh - 60.8px);
+}
+#text{
+    box-shadow: 1px 2px 50px 1px rgb(0,0,0,.7);
+    width: 68%;
+}
+h1{
+    color: var(--blue-color);
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+/* end header */
+/* end home page */
